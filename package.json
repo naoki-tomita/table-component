@@ -10,6 +10,6 @@
     "typescript": "^4.2.3"
   },
   "scripts": {
-    "dev": "parcel index.html --public-url dist"
+    "dev": "parcel index.html --public-url ./"
   }
 }
