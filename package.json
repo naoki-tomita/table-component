@@ -1,12 +1,15 @@
 {
   "name": "table",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "license": "MIT",
   "dependencies": {
     "parcel": "^2.0.0-beta.2"
   },
   "devDependencies": {
     "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "dev": "parcel index.html --public-url dist"
   }
 }
